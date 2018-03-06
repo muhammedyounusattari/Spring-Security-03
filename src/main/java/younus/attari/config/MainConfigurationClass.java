@@ -36,8 +36,8 @@ public class MainConfigurationClass extends WebSecurityConfigurerAdapter impleme
 	public DataSource getDataSource(){
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
 		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-		dataSource.setUrl("jdbc:mysql://mysql.llll.com/dbiption");
-		dataSource.setUsername("hybs");
+		dataSource.setUrl("jdbc:mysql://mysql.transcriptionhub.com/dbhybrid_transcription");
+		dataSource.setUsername("hybrid_trans");
 		dataSource.setPassword("trans#123");
 		//dataSource.setSchema("dbhybrid_transcription");
 		
